@@ -12,6 +12,7 @@ fun AppNavGraph(navController: NavHostController = rememberNavController()) {
         composable("TextCustomizationScreen") { TextCustomizationScreen(navController) }
         composable("ExpandedCardScreen") { ExpandedCardScreen(navController) }
         composable("TextFieldScreen") { AllTextFieldsScreen(navController) }
+        composable("Buttons") { Buttons(navController) }
 //        composable("text") { TextScreen() }
 //        composable("button") { ButtonScreen() }
 

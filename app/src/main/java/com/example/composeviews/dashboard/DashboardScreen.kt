@@ -47,6 +47,10 @@ fun DashboardScreen(navController: NavController) {
             Button(onClick = { navController.navigate("TextFieldScreen") }, modifier = Modifier.fillMaxWidth()) {
                 Text("Text Field/Edit Text")
             }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("Buttons") }, modifier = Modifier.fillMaxWidth()) {
+                Text("Buttons/ Button with icon")
+            }
 
         }
     }
