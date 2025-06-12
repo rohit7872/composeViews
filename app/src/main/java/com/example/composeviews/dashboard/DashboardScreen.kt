@@ -51,6 +51,10 @@ fun DashboardScreen(navController: NavController) {
             Button(onClick = { navController.navigate("Buttons") }, modifier = Modifier.fillMaxWidth()) {
                 Text("Buttons/ Button with icon")
             }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("lazyColumnExample") }, modifier = Modifier.fillMaxWidth()) {
+                Text("lazyColumn Example")
+            }
 
         }
     }

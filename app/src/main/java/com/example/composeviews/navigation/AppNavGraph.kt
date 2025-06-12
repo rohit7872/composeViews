@@ -13,6 +13,7 @@ fun AppNavGraph(navController: NavHostController = rememberNavController()) {
         composable("ExpandedCardScreen") { ExpandedCardScreen(navController) }
         composable("TextFieldScreen") { AllTextFieldsScreen(navController) }
         composable("Buttons") { Buttons(navController) }
+        composable("lazyColumnExample") { lazyColumnExample(navController) }
 //        composable("text") { TextScreen() }
 //        composable("button") { ButtonScreen() }
 
