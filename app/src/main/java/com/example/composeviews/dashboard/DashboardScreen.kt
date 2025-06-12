@@ -55,7 +55,32 @@ fun DashboardScreen(navController: NavController) {
             Button(onClick = { navController.navigate("lazyColumnExample") }, modifier = Modifier.fillMaxWidth()) {
                 Text("lazyColumn Example")
             }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("CustomeUi") }, modifier = Modifier.fillMaxWidth()) {
+                Text("CustomeUi")
+            }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("MainBottomNavigationSc") }, modifier = Modifier.fillMaxWidth()) {
+                Text("Bottom Navigation / navBar")
+            }
 
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("SearchAppBar") }, modifier = Modifier.fillMaxWidth()) {
+                Text("SearchAppBar")
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("ShimmerListWithDelay") }, modifier = Modifier.fillMaxWidth()) {
+                Text("Shimmer Effect")
+            }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("AnimatedSplashScreen") }, modifier = Modifier.fillMaxWidth()) {
+                Text("Animated Splash Screen")
+            }
+            Spacer(modifier = Modifier.height(8.dp))
+            Button(onClick = { navController.navigate("SystemBarColorChangeScreen") }, modifier = Modifier.fillMaxWidth()) {
+                Text("SystemBar Color Change")
+            }
         }
     }
 }

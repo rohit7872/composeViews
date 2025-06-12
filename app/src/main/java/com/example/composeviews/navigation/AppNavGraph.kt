@@ -3,6 +3,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.animatedsplashscreendemo.AnimatedSplashScreen
 
 @Composable
 fun AppNavGraph(navController: NavHostController = rememberNavController()) {
@@ -14,6 +15,11 @@ fun AppNavGraph(navController: NavHostController = rememberNavController()) {
         composable("TextFieldScreen") { AllTextFieldsScreen(navController) }
         composable("Buttons") { Buttons(navController) }
         composable("lazyColumnExample") { lazyColumnExample(navController) }
+        composable("CustomeUi") { CustomeUi(navController) }
+        composable("SearchAppBar") { SearchAppBar(navController) }
+        composable("ShimmerListWithDelay") { ShimmerListWithDelay(navController) }
+        composable("AnimatedSplashScreen") { AnimatedSplashScreen(navController) }
+        composable("SystemBarColorChangeScreen") { SystemBarColorChangeScreen(navController) }
 //        composable("text") { TextScreen() }
 //        composable("button") { ButtonScreen() }
 
